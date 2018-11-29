@@ -1,5 +1,7 @@
 <?php
 require_once __DIR__ . '/../config/init.php';
-echo 'Front controller';
+require_once LIBS . '/functions.php';
 
+new \ishop\App();
 
+debug(\ishop\App::$app->getProperties());
