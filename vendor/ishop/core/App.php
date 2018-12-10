@@ -20,6 +20,9 @@ class App
 
     new ErrorHandler();
 
+    // передаем маршрутизатору запрошенный адрес
+    Router::dispatch($query);
+
   }
 
   protected function getParams()
