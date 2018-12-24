@@ -1,7 +1,7 @@
 <?php
 function debug($array)
 {
-  echo '<pre style="font-size: 10px">';
+  echo '<pre style="font-size: 12px; color: orangered; ">';
   print_r($array);
   echo '</pre>';
 }

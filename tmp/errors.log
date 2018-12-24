@@ -1,2 +1,28 @@
 [2018-12-11 14:06:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
 ================
+[2018-12-24 12:45:30] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 48
+================
+[2018-12-24 13:30:05] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 48
+================
+[2018-12-24 13:31:48] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2018-12-24 14:09:28] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Db.php | Строка: 18
+================
+[2018-12-24 14:09:53] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Db.php | Строка: 18
+================
+[2018-12-24 14:10:48] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Db.php | Строка: 19
+================
+[2018-12-24 14:10:50] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Db.php | Строка: 19
+================
+[2018-12-24 14:11:00] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Db.php | Строка: 17
+================
+[2018-12-24 14:12:25] Текст ошибки: Нет соединения с БД | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Db.php | Строка: 20
+================
+[2018-12-24 14:59:18] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\php-master\app\views\layouts\default.php | Строка: 16
+================
+[2018-12-24 14:59:32] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\php-master\app\views\layouts\default.php | Строка: 16
+================
+[2018-12-24 15:01:28] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\php-master\app\views\layouts\default.php | Строка: 18
+================
+[2018-12-24 15:24:39] Текст ошибки: Unsupported operand types | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Cache.php | Строка: 27
+================

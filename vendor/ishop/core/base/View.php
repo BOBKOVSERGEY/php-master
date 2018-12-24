@@ -33,6 +33,10 @@ class View
 
   public function render($data)
   {
+    if (is_array($data)) {
+      // извлекает данные из массива и формирует сответствующие переменные
+      extract($data);
+    }
     $viewFile = APP . "/views/{$this->prefix}{$this->controller}/{$this->view}.php";
     if (is_file($viewFile)) {
       ob_start();
@@ -54,7 +58,11 @@ class View
 
   public function getMeta()
   {
+    $output = '<title>'. $this->meta['title'] .'</title>' . PHP_EOL;
+    $output .= '<meta name="description" content="'. $this->meta['description'] .'">' . PHP_EOL;
+    $output .= '<meta name="description" content="'. $this->meta['keywords'] .'">' . PHP_EOL;
 
+    return $output;
   }
 
 }
