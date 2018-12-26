@@ -196,3 +196,39 @@
 ================
 [2018-12-25 16:35:27] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
 ================
+[2018-12-26 10:53:17] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2018-12-26 11:05:46] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2018-12-26 11:06:54] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2018-12-26 11:08:42] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2018-12-26 11:10:24] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2018-12-26 11:15:37] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2018-12-26 11:20:55] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2018-12-26 11:22:00] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2018-12-26 11:22:32] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2018-12-26 11:23:49] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2018-12-26 11:24:07] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2018-12-26 11:25:22] Текст ошибки: Контроллер app\controllers\CartController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2018-12-26 12:12:26] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2018-12-26 12:17:18] Текст ошибки: syntax error, unexpected '$this' (T_VARIABLE) | Файл: C:\OSPanel\domains\php-master\app\widgets\currency\Currency.php | Строка: 26
+================
+[2018-12-26 12:17:19] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2018-12-26 12:37:07] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2018-12-26 12:42:09] Текст ошибки: Call to undefined method app\controllers\CurrencyController::getView() | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 42
+================
+[2018-12-26 13:45:59] Текст ошибки: Call to a member function findOne() on null | Файл: C:\OSPanel\domains\php-master\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка: 865
+================
