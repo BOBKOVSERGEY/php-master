@@ -232,3 +232,7 @@
 ================
 [2018-12-26 13:45:59] Текст ошибки: Call to a member function findOne() on null | Файл: C:\OSPanel\domains\php-master\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка: 865
 ================
+[2018-12-27 15:15:39] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2018-12-27 15:15:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
