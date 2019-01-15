@@ -17,21 +17,26 @@
       <div class="col-md-9 single-main-left">
         <div class="sngl-top">
           <div class="col-md-5 single-top-left">
+            <?php if ($gallery) { ?>
             <div class="flexslider">
               <ul class="slides">
-                <li data-thumb="images/s-1.jpg">
-                  <div class="thumb-image"> <img src="images/s-1.jpg" data-imagezoom="true" class="img-responsive" alt=""/> </div>
+                <?php foreach ($gallery as $item) { ?>
+                <li data-thumb="images/<?php echo $item->img; ?>">
+                  <div class="thumb-image"> <img src="images/<?php echo $item->img; ?>" data-imagezoom="true" class="img-responsive" alt=""/> </div>
                 </li>
-                <li data-thumb="images/s-2.jpg">
-                  <div class="thumb-image"> <img src="images/s-2.jpg" data-imagezoom="true" class="img-responsive" alt=""/> </div>
-                </li>
-                <li data-thumb="images/s-3.jpg">
-                  <div class="thumb-image"> <img src="images/s-3.jpg" data-imagezoom="true" class="img-responsive" alt=""/> </div>
-                </li>
+                <?php } ?>
               </ul>
             </div>
             <!-- FlexSlider -->
-
+            <?php } else {?>
+              <div class="flexslider">
+                <ul class="slides">
+                  <li data-thumb="images/<?php echo $product->img;?>">
+                    <div class="thumb-image"> <img src="images/<?php echo $product->img;?>" data-imagezoom="true" class="img-responsive" alt=""/> </div>
+                  </li>
+                </ul>
+              </div>
+            <?php }?>
 
           </div>
           <?php
@@ -135,7 +140,7 @@
             </li>
           </ul>
         </div>
-        <?php debug($related); if ($related) { ?>
+        <?php if ($related) { ?>
           <div class="latestproducts">
             <div class="product-one">
               <h3 class="related__heading">С этим товаром покупают</h3>
@@ -158,6 +163,34 @@
                   </div>
                 </div>
               </div>
+              <?php } ?>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        <?php }?>
+        <?php if ($recentlyViewed) { ?>
+          <div class="latestproducts">
+            <div class="product-one">
+              <h3 class="related__heading">Вы смотрели</h3>
+              <?php foreach ($recentlyViewed as $item) {?>
+                <div class="col-md-4 product-left p-left">
+                  <div class="product-main simpleCart_shelfItem">
+                    <a href="product/<?php echo $item->alias; ?>" class="mask"><img class="img-responsive zoom-img" src="images/<?php echo $item->img; ?>" alt="" /></a>
+                    <div class="product-bottom">
+                      <h3><a href="product/<?php echo $item->alias; ?>"><?php echo $item->title; ?></a></h3>
+                      <p>Explore Now</p>
+                      <h4><a class="item_add add-to-cart-link" href="cart/add?id=<?php echo $item->id?>" data-id="<?php echo $item->id?>"><i></i></a>
+                        <span class=" item_price"><?php echo $curr['symbol_left']; ?> <?php echo $item->price * $curr['value']; ?> <?php echo $curr['symbol_right']; ?></span>
+                        <?php if ($item->old_price) {?>
+                          <small><del><?php echo $curr['symbol_left']; ?> <?php echo $item->old_price * $curr['value']; ?> <?php echo $curr['symbol_right']; ?></del></small>
+                        <?php } ?>
+                      </h4>
+                    </div>
+                    <div class="srch">
+                      <span>-50%</span>
+                    </div>
+                  </div>
+                </div>
               <?php } ?>
               <div class="clearfix"></div>
             </div>

@@ -5,6 +5,7 @@ namespace app\controllers;
 
 
 
+use app\models\Product;
 use RedBeanPHP\R;
 
 class ProductController extends AppController
@@ -21,22 +22,30 @@ class ProductController extends AppController
     // get breadcrumbs
 
     // get relation  product
-
     $related = R::getAll('SELECT * FROM related_product JOIN product ON product.id = related_product.related_id WHERE related_product.product_id = ?', [$product->id]);
-    //debug($related);
 
     // save cookie showed product
+    $productModel = new Product();
+    $productModel->setRecentlyViewed($product->id);
 
     // showed product
+    $rViewed = $productModel->getRecentlyViewed();
+    $recentlyViewed = null;
+
+    if ($rViewed) {
+      $recentlyViewed = R::find('product', 'id IN(' . R::genSlots($rViewed) . ') LIMIT 3', $rViewed);
+    }
 
     // get gallery
+    $gallery = R::findAll('gallery', 'product_id = ?', [$product->id]);
+
 
     // get modifications product
 
     // set meta
     $this->setMeta($product->title, $product->description, $product->keywords);
     // передаем в вид
-    $this->set(compact('product', 'related'));
+    $this->set(compact('product', 'related', 'gallery', 'recentlyViewed'));
 
   }
 }
