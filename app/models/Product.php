@@ -19,6 +19,18 @@ class Product extends AppModel
         $recentlyViewed[] = $id;
         $recentlyViewed = implode('.', $recentlyViewed);
         setcookie('recentlyViewed', $recentlyViewed, time() + 3600*24, '/');
+
+        // если есть id в массивет recentlyViewed
+      } else if (in_array($id, $recentlyViewed)) {
+        // удаляем старый id
+        if(($key = array_search($id, $recentlyViewed)) !== FALSE){
+          unset($recentlyViewed[$key]);
+        }
+        // записываем новый id
+        $recentlyViewed[] = $id;
+        $recentlyViewed = implode('.', $recentlyViewed);
+        // сохраняем в cookie
+        setcookie('recentlyViewed', $recentlyViewed, time() + 3600*24, '/');
       }
     }
   }
