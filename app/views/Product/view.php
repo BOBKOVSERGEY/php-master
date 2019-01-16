@@ -3,8 +3,7 @@
   <div class="container">
     <div class="breadcrumbs-main">
       <ol class="breadcrumb">
-        <li><a href="/">Home</a></li>
-        <li class="active">Single</li>
+        <?php echo $breadcrumbs; ?>
       </ol>
     </div>
   </div>
