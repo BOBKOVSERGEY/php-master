@@ -151,6 +151,18 @@
   </div>
 </div>
 <!--footer-end-->
+
+<?php
+// получаем активную валюту
+$curr = \ishop\App::$app->getProperty('currency');
+?>
+<script>
+  let path = '<?php echo PATH; ?>',
+      course = <?php echo $curr['value']; ?>,
+      symbolLeft = '<?php echo $curr['symbol_left']; ?>',
+      symbolRight = '<?php echo $curr['symbol_right']; ?>';
+</script>
+
 <script src="js/jquery-1.11.0.min.js"></script>
 <script src="js/simpleCart.min.js"> </script>
 <!--dropdown-->

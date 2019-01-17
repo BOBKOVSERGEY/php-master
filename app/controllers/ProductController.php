@@ -44,11 +44,12 @@ class ProductController extends AppController
 
 
     // get modifications product
+    $modification = R::findAll('modification', 'product_id = ?', [$product->id]);
 
     // set meta
     $this->setMeta($product->title, $product->description, $product->keywords);
     // передаем в вид
-    $this->set(compact('product', 'related', 'gallery', 'recentlyViewed', 'breadcrumbs'));
+    $this->set(compact('product', 'related', 'gallery', 'recentlyViewed', 'breadcrumbs', 'modification'));
 
   }
 }

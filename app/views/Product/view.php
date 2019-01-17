@@ -61,31 +61,28 @@
               </div>
 
               <h5 class="item_price">
-                <?php echo $curr['symbol_left']; ?> <?php echo $product->price * $curr['value']; ?> <?php echo $curr['symbol_right']; ?>
+                <?php echo $curr['symbol_left']; ?> <span id="base-price" data-base="<?php echo $product->price * $curr['value']; ?>"><?php echo $product->price * $curr['value']; ?></span> <?php echo $curr['symbol_right']; ?>
                 <?php if ($product->old_price) {?>
                   <small><del><?php echo $curr['symbol_left']; ?> <?php echo $product->old_price * $curr['value']; ?> <?php echo $curr['symbol_right']; ?></del></small>
                 <?php } ?>
               </h5>
               <?php echo $product->content; ?>
+
+              <? if ($modification) { ?>
               <div class="available">
                 <ul>
                   <li>Color
                     <select>
-                      <option>Silver</option>
-                      <option>Black</option>
-                      <option>Dark Black</option>
-                      <option>Red</option>
-                    </select></li>
-                  <li class="size-in">Size<select>
-                      <option>Large</option>
-                      <option>Medium</option>
-                      <option>small</option>
-                      <option>Large</option>
-                      <option>small</option>
-                    </select></li>
+                      <option>Выбрать цвет</option>
+                      <?php foreach ($modification as $item) { ?>
+                        <option data-title="<?php echo $item->title; ?>" data-price="<?php echo $item->price * $curr['value']; ?>" value="<?php echo $item->id; ?>"><?php echo $item->title; ?></option>
+                      <?php } ?>
+                    </select>
+                  </li>
                   <div class="clearfix"> </div>
                 </ul>
               </div>
+              <?php } ?>
               <ul class="tag-men">
                 <li><span>Category</span>
                   <span>: <a href="category/<?php echo $cats[$product->category_id]['alias']; ?>"><?php echo $cats[$product->category_id]['title']; ?></a></span></li>
