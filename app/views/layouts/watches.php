@@ -85,6 +85,7 @@
 <!--bottom-header-->
 
 <div class="content">
+  <?php debug($_SESSION); ?>
   <?php echo $content; ?>
 </div>
 
@@ -164,7 +165,6 @@ $curr = \ishop\App::$app->getProperty('currency');
 </script>
 
 <script src="js/jquery-1.11.0.min.js"></script>
-<script src="js/simpleCart.min.js"> </script>
 <!--dropdown-->
 <script src="js/jquery.easydropdown.js"></script>
 <script src="js/responsiveslides.min.js"></script>
