@@ -36,12 +36,24 @@
       </div>
       <div class="col-md-6 top-header-left">
         <div class="cart box_1">
-          <a href="checkout.html">
+          <a href="cart/show" id="header-cart">
+            <div class="total">
+              <img src="images/cart-1.png" alt="">
+              <?php if (!empty($_SESSION['cart'])) { ?>
+                <div class="simpleCart_total">
+                  <?php echo $_SESSION['cart.currency']['symbol_left'] . ' ' . $_SESSION['cart.sum'] . $_SESSION['cart.currency']['symbol_right']?>
+                </div>
+              <?php } else { ?>
+                <div class="simpleCart_total">Корзина пуста</div>
+              <?php } ?>
+            </div>
+          </a>
+          <!--<a href="checkout.html">
             <div class="total">
               <span class="simpleCart_total"></span></div>
             <img src="images/cart-1.png" alt="" />
           </a>
-          <p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
+          <p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>-->
           <div class="clearfix"> </div>
         </div>
       </div>
@@ -85,7 +97,6 @@
 <!--bottom-header-->
 
 <div class="content">
-  <?php debug($_SESSION); ?>
   <?php echo $content; ?>
 </div>
 
@@ -152,6 +163,24 @@
   </div>
 </div>
 <!--footer-end-->
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Корзина</h4>
+      </div>
+      <div class="modal-body">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
+        <a href="cart/view" type="button" class="btn btn-primary">Оформить заказ</a>
+        <button type="button" class="btn btn-danger" onclick="clearCart()">Очистить корзину</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <?php
 // получаем активную валюту
@@ -165,6 +194,7 @@ $curr = \ishop\App::$app->getProperty('currency');
 </script>
 
 <script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <!--dropdown-->
 <script src="js/jquery.easydropdown.js"></script>
 <script src="js/responsiveslides.min.js"></script>

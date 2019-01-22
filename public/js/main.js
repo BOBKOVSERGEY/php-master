@@ -48,7 +48,55 @@ $(function () {
   });
   
   function showCart(cart) {
-    console.log(cart);
+
+    if($.trim(cart) == '<h3>Корзина пуста</h3>'){
+      $('#cart .modal-footer a, #cart .modal-footer .btn-danger').css('display', 'none');
+    }else{
+      $('#cart .modal-footer a, #cart .modal-footer .btn-danger').css('display', 'inline-block');
+    }
+    $('#cart .modal-body').html(cart);
+    $('#cart').modal();
+    if($('.cart-sum').text()){
+      $('.simpleCart_total').html($('#cart .cart-sum').text());
+    }else{
+      $('.simpleCart_total').text('Корзина пуста');
+    }
   }
+  
+  function getCart() {
+    // все готов отправляем запрос на сервер
+    $.ajax({
+      type: 'GET',
+      url: '/cart/show',
+      success: function (r) {
+        showCart(r);
+      },
+      error: function () {
+        alert('Ошибка, попробуйте позже!');
+      }
+    });
+  }
+
+  $('#header-cart').on('click', function (e) {
+    e.preventDefault();
+    getCart();
+  });
+
+  $('#cart .modal-body').on('click', '.del-item', function () {
+    let id = $(this).data('id');
+    $.ajax({
+      type: 'GET',
+      url: '/cart/delete',
+      data: {
+        id: id
+      },
+      success: function (r) {
+        showCart(r);
+      },
+      error: function (r) {
+        alert('Error!');
+      }
+    })
+  })
 
 });

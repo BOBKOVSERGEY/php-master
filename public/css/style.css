@@ -3073,4 +3073,7 @@ ul.tag-men {
 .related__heading {
 	margin-bottom: 30px;
 }
+.del-item:hover {
+	cursor: pointer;
+}
 /*--media-quaries-end-here--*/
