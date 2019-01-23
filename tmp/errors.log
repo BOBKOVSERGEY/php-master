@@ -40,3 +40,5 @@
 ================
 [2019-01-22 15:41:42] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
 ================
+[2019-01-23 14:47:59] Текст ошибки: Метод app\controllers\CartController::viewAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================

@@ -97,6 +97,22 @@ $(function () {
         alert('Error!');
       }
     })
+  });
+
+  function clearCart() {
+    $.ajax({
+      type: 'GET',
+      url: '/cart/clear',
+      success: function (r) {
+        showCart(r);
+      },
+      error: function (r) {
+        alert('Error!');
+      }
+    });
+  }
+  $('#clear-cart').on('click', function () {
+    clearCart();
   })
 
 });

@@ -97,6 +97,7 @@
 <!--bottom-header-->
 
 <div class="content">
+  <?php //debug($_SESSION); ?>
   <?php echo $content; ?>
 </div>
 
@@ -176,7 +177,7 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
         <a href="cart/view" type="button" class="btn btn-primary">Оформить заказ</a>
-        <button type="button" class="btn btn-danger" onclick="clearCart()">Очистить корзину</button>
+        <button type="button" class="btn btn-danger" id="clear-cart">Очистить корзину</button>
       </div>
     </div>
   </div>
