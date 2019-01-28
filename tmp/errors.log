@@ -42,3 +42,25 @@
 ================
 [2019-01-23 14:47:59] Текст ошибки: Метод app\controllers\CartController::viewAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
 ================
+[2019-01-28 14:37:04] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-01-28 14:37:06] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-01-28 14:37:07] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-01-28 14:37:08] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-01-28 14:37:08] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-01-28 14:37:09] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-01-28 14:37:18] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-01-28 14:52:09] Текст ошибки: Метод app\controllers\SearchController::indexAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
+[2019-01-28 15:15:18] Текст ошибки: Метод app\controllers\SearchController::indexAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
+[2019-01-28 15:22:55] Текст ошибки: Метод app\controllers\SearchController::indexAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
+[2019-01-28 15:24:00] Текст ошибки: Метод app\controllers\SearchController::indexAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
