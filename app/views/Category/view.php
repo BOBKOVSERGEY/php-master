@@ -3,8 +3,7 @@
   <div class="container">
     <div class="breadcrumbs-main">
       <ol class="breadcrumb">
-        <li><a href="<?php echo PATH; ?>">Главная</a></li>
-        <li class="active">Категория</li>
+        <?php echo $breadcrumbs; ?>
       </ol>
     </div>
   </div>
@@ -42,6 +41,12 @@
               </div>
             <?php } ?>
             <div class="clearfix"></div>
+            <div class="text-center">
+              <p><?php echo count($products); ?> товарa(ов) из <?php echo $pagination->total; ?></p>
+              <?php if ($pagination->countPages > 1)  { ?>
+                <?php echo $pagination; ?>
+              <?php } ?>
+            </div>
           </div>
         <?php } else { ?>
           <h3>В этой категории товаров пока нет</h3>

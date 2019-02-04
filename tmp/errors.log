@@ -78,3 +78,7 @@
 ================
 [2019-01-29 15:32:36] Текст ошибки: syntax error, unexpected '}' | Файл: C:\OSPanel\domains\php-master\app\views\Category\view.php | Строка: 48
 ================
+[2019-02-04 14:33:06] Текст ошибки: Контроллер app\controllers\UserController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-02-04 16:55:05] Текст ошибки: Метод app\controllers\UserController::signupAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
