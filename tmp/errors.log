@@ -82,3 +82,11 @@
 ================
 [2019-02-04 16:55:05] Текст ошибки: Метод app\controllers\UserController::signupAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
 ================
+[2019-02-05 15:57:41] Текст ошибки: Fail to load language file 'C:\OSPanel\domains\php-master/public/validator/lang/ru.php' | Файл: C:\OSPanel\domains\php-master\vendor\vlucas\valitron\src\Valitron\Validator.php | Строка: 113
+================
+[2019-02-05 16:08:59] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'login' doesn't have a default value | Файл: C:\OSPanel\domains\php-master\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+================
+[2019-02-05 16:12:12] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'login' doesn't have a default value | Файл: C:\OSPanel\domains\php-master\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+================
+[2019-02-05 16:22:49] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sergey_bobkov@inbox.ru' for key 'email' | Файл: C:\OSPanel\domains\php-master\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+================
