@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Фев 12 2019 г., 14:41
+-- Время создания: Фев 13 2019 г., 16:15
 -- Версия сервера: 5.7.20
 -- Версия PHP: 7.0.26
 
@@ -292,6 +292,13 @@ CREATE TABLE `order` (
   `note` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Дамп данных таблицы `order`
+--
+
+INSERT INTO `order` (`id`, `user_id`, `status`, `date`, `update_at`, `currency`, `note`) VALUES
+(2, 8, '0', '2019-02-13 12:47:26', NULL, 'EUR', 'some');
+
 -- --------------------------------------------------------
 
 --
@@ -306,6 +313,15 @@ CREATE TABLE `order_product` (
   `title` varchar(255) NOT NULL,
   `price` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `order_product`
+--
+
+INSERT INTO `order_product` (`id`, `order_id`, `product_id`, `qty`, `title`, `price`) VALUES
+(4, 2, 2, 1, 'Casio MQ-24-7BUL', 61.6),
+(5, 2, 3, 1, 'Casio GA-1000-1AER', 352),
+(6, 2, 2, 3, 'Casio MQ-24-7BUL (Silver)', 70.4);
 
 -- --------------------------------------------------------
 
@@ -411,12 +427,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `login`, `password`, `email`, `name`, `address`, `role`) VALUES
-(1, 'user', '123456', 'sergey_bobkov@inbox.ru', 'user', 'Тельмана, дом 32', 'user'),
-(3, 'user2', '$2y$10$iaZHTbf4c88hH5iL8drmFuS5YnXWZ.GWuwyiqSoAaKw980cNjIKoq', 'user2@user2.ru', 'user2', '141730, Московская область, г.Лобня, ул. Лейтенанта Бойко, 104', 'user'),
-(4, 'alpenisty', '$2y$10$BlO6Dt.OtH4w7s6rQ4DHQ.jBAzO20ABcXKcrnXTUg1ju8H0V3ni8K', 'alpenisty@alpenisty.ru', 'alpenisty', 'ул.Фонвизина, д.4Б, кв.55', 'user'),
-(5, 'sergey_bobkov@inbox.ru', '$2y$10$VEdh0WIflHPhWoJNmaWiaO4RLIamgQTXSPVkrByJbFhggEmAIZ2bS', 'sergey1_bobkov@inbox.ru', 'ser', 'Тельмана, дом 32', 'user'),
-(6, 'hhhhhhhhhhhhhhhh', '$2y$10$z5eLwPZWc9apAE2BuzUbKOLWXdv/g3YU/A7FhMtr9HG1.wkZxrthO', 'sergey4_bobkov@inbox.ru', 'serhhhhhh', 'Тельмана, дом 32', 'user'),
-(7, 'user5', '$2y$10$wCUIG965HXjQQ0jYICRgN.krbHLKbETDqPto.VbWgTlShOEemFkLW', 'user5@user5.ru', 'User5', 'some', 'user');
+(8, 'sergey', '$2y$10$cEsUGxlMzobYDWw190ELSeph028Zwa91mQ8mt0jscy2i2oiF0aGLa', 'sergey_bobkov@inbox.ru', 'Сергей', 'Тельмана, дом 32', 'user');
 
 --
 -- Индексы сохранённых таблиц
@@ -566,7 +577,7 @@ ALTER TABLE `order`
 -- AUTO_INCREMENT для таблицы `order_product`
 --
 ALTER TABLE `order_product`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT для таблицы `product`
@@ -578,7 +589,7 @@ ALTER TABLE `product`
 -- AUTO_INCREMENT для таблицы `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- Ограничения внешнего ключа сохраненных таблиц
