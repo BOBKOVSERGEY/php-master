@@ -215,6 +215,10 @@
   </div>
 </div>
 
+<div class="preloader">
+  <img src="images/ring.svg" alt="">
+</div>
+
 <?php
 // получаем активную валюту
 $curr = \ishop\App::$app->getProperty('currency');
