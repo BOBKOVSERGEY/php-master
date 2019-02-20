@@ -42,6 +42,12 @@ class Filter
   protected function getHtml()
   {
     ob_start();
+    $filter = self::getFilter();
+
+    if (!empty($filter)) {
+      // разобъем строку через запятую
+      $filter = explode(',', $filter);
+    }
     require $this->tpl;
     return ob_get_clean();
   }

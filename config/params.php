@@ -3,7 +3,7 @@
 return [
   'admin_email' => 'info@sitesdevelopment.ru',
   'shop_name' => 'Мой магазин',
-  'pagination' => 9,
+  'pagination' => 3,
   'smtp_host' => 'smtp.gmail.com',
   'smtp_port' => '465',
   'smtp_protocol' => 'ssl',
