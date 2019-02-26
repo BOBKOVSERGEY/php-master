@@ -116,3 +116,171 @@
 ================
 [2019-02-21 15:57:55] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product_id' in 'group statement' | Файл: C:\OSPanel\domains\php-master\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
 ================
+[2019-02-26 15:23:58] Текст ошибки: Контроллер app\controllers\admin\MainController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-02-26 15:28:47] Текст ошибки: Call to a member function getDatabase() on null | Файл: C:\OSPanel\domains\php-master\app\views\layouts\watches.php | Строка: 295
+================
+[2019-02-26 15:46:08] Текст ошибки: Call to a member function getDatabase() on null | Файл: C:\OSPanel\domains\php-master\app\views\layouts\watches.php | Строка: 295
+================
+[2019-02-26 15:47:42] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:47:42] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:47:42] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:47:42] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:47:42] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:47:42] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:47:42] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:47:42] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:47:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:47:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:47:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:47:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:47:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:47:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:47:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:47:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:47:51] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:47:51] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:48:21] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:48:21] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:48:21] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:48:21] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:48:21] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:48:21] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:48:21] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:48:21] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:48:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:48:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:48:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:48:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:48:24] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:48:24] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:48:24] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:48:24] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 15:53:48] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-02-26 16:21:02] Текст ошибки: Контроллер app\controllers\admin\OrderController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-02-26 16:21:12] Текст ошибки: Контроллер app\controllers\admin\CacheController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
