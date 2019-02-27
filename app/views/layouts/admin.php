@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Dashboard</title>
+  <?php echo $this->getMeta(); ?>
   <base href="/adminLte/">
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -44,7 +44,7 @@
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="<?php echo ADMIN; ?>" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
@@ -623,5 +623,15 @@
 <script src="dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
+<?php if (DEBUG) { ?>
+  <section class="debug">
+    <?php
+    $logs = \RedBeanPHP\R::getDatabaseAdapter()
+      ->getDatabase()
+      ->getLogger();
+    debug($logs->grep('SELECT'));
+    ?>
+  </section>
+<?php } ?>
 </body>
 </html>

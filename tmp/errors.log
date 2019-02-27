@@ -284,3 +284,11 @@
 ================
 [2019-02-26 16:21:12] Текст ошибки: Контроллер app\controllers\admin\CacheController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
 ================
+[2019-02-27 16:41:44] Текст ошибки: Не найден вид C:\OSPanel\domains\php-master/app/views/admin\User/login-admin.php | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\base\View.php | Строка: 46
+================
+[2019-02-27 16:42:55] Текст ошибки: Не найден вид C:\OSPanel\domains\php-master/app/views/admin\User/login-admin.php | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\base\View.php | Строка: 46
+================
+[2019-02-27 17:25:50] Текст ошибки: Call to a member function getDatabase() on null | Файл: C:\OSPanel\domains\php-master\app\views\layouts\admin.php | Строка: 630
+================
+[2019-02-27 17:29:20] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
