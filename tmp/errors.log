@@ -292,3 +292,13 @@
 ================
 [2019-02-27 17:29:20] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
 ================
+[2019-03-04 17:50:37] Текст ошибки: Контроллер app\controllers\admin\OrderController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-03-04 18:03:40] Текст ошибки: Контроллер app\controllers\admin\CategoryController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-03-05 14:15:31] Текст ошибки: Контроллер app\controllers\admin\OrderController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-03-05 15:10:11] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS `sum` FROM `order` JOIN `user` ON `order`.`user_id` = `user`.`id` JOIN `ord' at line 1 | Файл: C:\OSPanel\domains\php-master\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+================
+[2019-03-05 15:12:58] Текст ошибки: Метод app\controllers\admin\OrderController::viewAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
