@@ -28,7 +28,9 @@
               </tr>
               </thead>
               <tbody>
-              <?php foreach($orders as $order): ?>
+              <?php
+
+              foreach($orders as $order): ?>
                 <?php $class = $order['status'] ? 'success' : ''; ?>
                 <tr class="<?=$class;?>">
                   <td><?=$order['id'];?></td>
@@ -37,7 +39,10 @@
                   <td><?=$order['sum'];?> <?=$order['currency'];?></td>
                   <td><?=$order['date'];?></td>
                   <td><?=$order['update_at'];?></td>
-                  <td><a href="<?=ADMIN;?>/order/view?id=<?=$order['id'];?>"><i class="fa fa-fw fa-eye"></i></a></td>
+                  <td>
+                    <a href="<?=ADMIN;?>/order/view?id=<?=$order['id'];?>"><i class="fa fa-fw fa-eye"></i></a>
+                    <a href="<?=ADMIN;?>/order/delete?id=<?=$order['id'];?>" class="text-danger delete"><i class="fa fa-fw fa-close"></i></a>
+                  </td>
                 </tr>
               <?php endforeach; ?>
               </tbody>

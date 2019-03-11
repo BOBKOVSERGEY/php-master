@@ -302,3 +302,27 @@
 ================
 [2019-03-05 15:12:58] Текст ошибки: Метод app\controllers\admin\OrderController::viewAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
 ================
+[2019-03-11 12:49:27] Текст ошибки: Метод app\controllers\admin\OrderController::viewAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
+[2019-03-11 12:58:04] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\app\controllers\admin\AppController.php | Строка: 35
+================
+[2019-03-11 13:16:41] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\app\controllers\admin\OrderController.php | Строка: 43
+================
+[2019-03-11 13:16:45] Текст ошибки: Не найден вид C:\OSPanel\domains\php-master/app/views/admin\Order/view.php | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\base\View.php | Строка: 46
+================
+[2019-03-11 13:16:49] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\app\controllers\admin\OrderController.php | Строка: 43
+================
+[2019-03-11 13:16:51] Текст ошибки: Не найден вид C:\OSPanel\domains\php-master/app/views/admin\Order/view.php | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\base\View.php | Строка: 46
+================
+[2019-03-11 13:16:52] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\app\controllers\admin\OrderController.php | Строка: 43
+================
+[2019-03-11 13:16:53] Текст ошибки: Не найден вид C:\OSPanel\domains\php-master/app/views/admin\Order/view.php | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\base\View.php | Строка: 46
+================
+[2019-03-11 13:16:56] Текст ошибки: Не найден вид C:\OSPanel\domains\php-master/app/views/admin\Order/view.php | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\base\View.php | Строка: 46
+================
+[2019-03-11 14:08:04] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-03-11 14:11:59] Текст ошибки: Метод app\controllers\admin\OrderController::deleteAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
+[2019-03-11 15:11:28] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY `order`.`id` DESC LIMIT 2, 1' at line 4 | Файл: C:\OSPanel\domains\php-master\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+================

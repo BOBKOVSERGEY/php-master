@@ -1,9 +1,11 @@
 <?php
-function debug($array)
+function debug($array, $die = false)
 {
   echo '<pre style="font-size: 12px; color: green; ">';
   print_r($array);
   echo '</pre>';
+
+  if ($die) die;
 }
 
 function debugVarDump($array)
