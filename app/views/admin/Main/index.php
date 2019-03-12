@@ -53,7 +53,7 @@
         <div class="icon">
           <i class="ion ion-person-add"></i>
         </div>
-        <a href="<?php echo ADMIN; ?>/user" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+        <a href="<?php echo ADMIN; ?>/user" class="small-box-footer">Все пользователи <i class="fa fa-arrow-circle-right"></i></a>
       </div>
     </div>
     <!-- ./col -->
@@ -68,7 +68,7 @@
         <div class="icon">
           <i class="ion ion-pie-graph"></i>
         </div>
-        <a href="<?php echo ADMIN; ?>/category" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+        <a href="<?php echo ADMIN; ?>/category" class="small-box-footer">Все категории <i class="fa fa-arrow-circle-right"></i></a>
       </div>
     </div>
     <!-- ./col -->

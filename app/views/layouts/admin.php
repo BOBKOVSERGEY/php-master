@@ -625,6 +625,7 @@
 <script src="dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
+<script src="/js/validator.min.js"></script>
 <script src="my.js"></script>
 <?php if (DEBUG) { ?>
   <section class="debug">
