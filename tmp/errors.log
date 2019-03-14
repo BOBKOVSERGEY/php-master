@@ -334,3 +334,9 @@
 ================
 [2019-03-12 13:32:16] Текст ошибки: Контроллер app\controllers\admin\ProductController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
 ================
+[2019-03-14 14:52:34] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\php-master\app\models\AppModel.php | Строка: 13
+================
+[2019-03-14 14:54:45] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\php-master\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
+================
+[2019-03-14 14:55:26] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\php-master\app\models\AppModel.php | Строка: 13
+================
