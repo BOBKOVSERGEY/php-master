@@ -340,3 +340,17 @@
 ================
 [2019-03-14 14:55:26] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\php-master\app\models\AppModel.php | Строка: 13
 ================
+[2019-03-14 15:08:17] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\app\controllers\admin\AppController.php | Строка: 35
+================
+[2019-03-26 14:05:24] Текст ошибки: Контроллер app\controllers\admin\ProductController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-03-26 14:05:30] Текст ошибки: Контроллер app\controllers\admin\CacheController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-03-26 14:11:28] Текст ошибки: Контроллер app\controllers\SomeController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-03-26 14:12:21] Текст ошибки: Контроллер app\controllers\SomeController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-03-26 14:21:04] Текст ошибки: Метод app\controllers\admin\CacheController::deleteAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
+[2019-03-26 14:51:38] Текст ошибки: Не найден вид C:\OSPanel\domains\php-master/app/views/admin\User/edit.php | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\base\View.php | Строка: 46
+================
