@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Мар 12 2019 г., 14:34
+-- Время создания: Апр 02 2019 г., 15:00
 -- Версия сервера: 5.7.20
 -- Версия PHP: 7.0.26
 
@@ -271,7 +271,7 @@ CREATE TABLE `order` (
 
 INSERT INTO `order` (`id`, `user_id`, `status`, `date`, `update_at`, `currency`, `note`) VALUES
 (2, 8, '1', '2019-02-13 12:47:26', '2019-03-11 12:22:01', 'EUR', 'some'),
-(3, 8, '1', '2019-03-05 11:35:48', '2019-03-11 12:23:16', 'USD', 'some');
+(3, 8, '0', '2019-03-05 11:35:48', '2019-04-02 11:22:31', 'USD', 'some');
 
 -- --------------------------------------------------------
 
@@ -402,7 +402,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `login`, `password`, `email`, `name`, `address`, `role`) VALUES
-(8, 'sergey', '$2y$10$cEsUGxlMzobYDWw190ELSeph028Zwa91mQ8mt0jscy2i2oiF0aGLa', 'sergey_bobkov@inbox.ru', 'Сергей', 'Тельмана, дом 32', 'admin');
+(8, 'sergey', '$2y$10$WD4SM68IpDAKdeeSie/3Be7bmw.IScjzF1j6CP.7hKvZNjr6apFyy', 'sergey_bobkov@inbox.ru', 'Сергей', 'Тельмана, дом 32', 'admin'),
+(9, 'sergey1', '$2y$10$sIzS8/ryb0L1.m7zkfhQ8OeB11fP2rUs2ARv/qdCK56R/Dwj./2Ji', 'sergey_bobkov5@inbox.ru', 'Бобков Сергей', 'Тельмана, дом 32', 'admin');
 
 --
 -- Индексы сохранённых таблиц
@@ -522,7 +523,7 @@ ALTER TABLE `brand`
 -- AUTO_INCREMENT для таблицы `category`
 --
 ALTER TABLE `category`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT для таблицы `currency`
@@ -564,7 +565,7 @@ ALTER TABLE `product`
 -- AUTO_INCREMENT для таблицы `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- Ограничения внешнего ключа сохраненных таблиц
