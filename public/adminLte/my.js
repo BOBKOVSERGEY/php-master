@@ -18,4 +18,6 @@ $(function () {
     }
   });
 
+  CKEDITOR.replace('content');
+
 });
