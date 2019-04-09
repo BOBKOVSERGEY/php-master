@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 03 2019 г., 15:39
+-- Время создания: Апр 09 2019 г., 15:54
 -- Версия сервера: 5.7.20
 -- Версия PHP: 7.0.26
 
@@ -63,22 +63,27 @@ INSERT INTO `attribute_product` (`attr_id`, `product_id`) VALUES
 (1, 1),
 (1, 2),
 (1, 3),
+(1, 37),
 (2, 4),
 (5, 1),
 (5, 2),
 (5, 3),
 (5, 4),
+(5, 37),
 (8, 1),
 (8, 2),
 (8, 3),
 (8, 4),
+(8, 37),
 (12, 1),
 (12, 2),
 (12, 3),
 (12, 4),
+(12, 37),
 (18, 1),
 (18, 2),
 (18, 4),
+(18, 37),
 (19, 3);
 
 -- --------------------------------------------------------
@@ -355,7 +360,8 @@ INSERT INTO `product` (`id`, `category_id`, `title`, `alias`, `content`, `price`
 (31, 7, 'Часы 18', 'chasy-18', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
 (32, 7, 'Часы 19', 'chasy-19', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
 (33, 7, 'Часы 20', 'chasy-20', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
-(34, 1, 'Товар 1', '', 'some content', 600, 500, '1', 'Товар 1', 'Товар 1', 'no_image.jpg', '1');
+(36, 3, 'Новый товар 2', 'novyy-tovar-2', '<p>some new content</p>\r\n', 100, 200, '1', 'Новый товар 2', 'Новый товар 2', 'no_image.jpg', '0'),
+(37, 1, 'Товар 3', 'tovar-3', '<p>Товар 3</p>\r\n', 600, 200, '1', 'Товар 3', 'Товар 3', 'no_image.jpg', '0');
 
 -- --------------------------------------------------------
 
@@ -559,7 +565,7 @@ ALTER TABLE `order_product`
 -- AUTO_INCREMENT для таблицы `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
 
 --
 -- AUTO_INCREMENT для таблицы `user`

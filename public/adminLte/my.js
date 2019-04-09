@@ -18,6 +18,9 @@ $(function () {
     }
   });
 
-  CKEDITOR.replace('content');
+  if (document.querySelector('#content')) {
+    CKEDITOR.replace('content');
+  }
+
 
 });

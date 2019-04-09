@@ -77,6 +77,7 @@
                 <input type="checkbox" name="hit"> Хит
               </label>
             </div>
+          <?php new \app\widgets\filter\Filter(null, WWW . '/filter/admin_filter_tpl.php'); ?>
 
           </div>
           <div class="box-footer">
