@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 09 2019 г., 15:54
+-- Время создания: Апр 10 2019 г., 15:26
 -- Версия сервера: 5.7.20
 -- Версия PHP: 7.0.26
 
@@ -65,21 +65,25 @@ INSERT INTO `attribute_product` (`attr_id`, `product_id`) VALUES
 (1, 3),
 (1, 37),
 (2, 4),
+(2, 38),
 (5, 1),
 (5, 2),
 (5, 3),
 (5, 4),
 (5, 37),
+(5, 38),
 (8, 1),
 (8, 2),
 (8, 3),
 (8, 4),
 (8, 37),
+(9, 38),
 (12, 1),
 (12, 2),
 (12, 3),
 (12, 4),
 (12, 37),
+(14, 38),
 (18, 1),
 (18, 2),
 (18, 4),
@@ -361,7 +365,8 @@ INSERT INTO `product` (`id`, `category_id`, `title`, `alias`, `content`, `price`
 (32, 7, 'Часы 19', 'chasy-19', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
 (33, 7, 'Часы 20', 'chasy-20', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
 (36, 3, 'Новый товар 2', 'novyy-tovar-2', '<p>some new content</p>\r\n', 100, 200, '1', 'Новый товар 2', 'Новый товар 2', 'no_image.jpg', '0'),
-(37, 1, 'Товар 3', 'tovar-3', '<p>Товар 3</p>\r\n', 600, 200, '1', 'Товар 3', 'Товар 3', 'no_image.jpg', '0');
+(37, 1, 'Товар 3', 'tovar-3', '<p>Товар 3</p>\r\n', 600, 200, '1', 'Товар 3', 'Товар 3', 'no_image.jpg', '0'),
+(38, 1, 'Товар 4', 'tovar-4', '<p>Товар 4</p>\r\n', 600, 700, '1', 'Товар 4', 'Товар 4', 'no_image.jpg', '0');
 
 -- --------------------------------------------------------
 
@@ -385,7 +390,10 @@ INSERT INTO `related_product` (`product_id`, `related_id`) VALUES
 (2, 10),
 (5, 1),
 (5, 7),
-(5, 8);
+(5, 8),
+(38, 4),
+(38, 5),
+(38, 9);
 
 -- --------------------------------------------------------
 
@@ -565,7 +573,7 @@ ALTER TABLE `order_product`
 -- AUTO_INCREMENT для таблицы `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
 
 --
 -- AUTO_INCREMENT для таблицы `user`

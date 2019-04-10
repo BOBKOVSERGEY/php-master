@@ -368,3 +368,9 @@
 ================
 [2019-04-04 15:53:35] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\php-master\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 188
 ================
+[2019-04-10 14:56:44] Текст ошибки: Метод app\controllers\admin\ProductController::relatedProductAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
+[2019-04-10 14:56:48] Текст ошибки: Метод app\controllers\admin\ProductController::relatedProductAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
+[2019-04-10 14:57:06] Текст ошибки: Метод app\controllers\admin\ProductController::relatedProductAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
