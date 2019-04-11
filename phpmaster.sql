@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 10 2019 г., 15:26
+-- Время создания: Апр 11 2019 г., 15:41
 -- Версия сервера: 5.7.20
 -- Версия PHP: 7.0.26
 
@@ -64,31 +64,40 @@ INSERT INTO `attribute_product` (`attr_id`, `product_id`) VALUES
 (1, 2),
 (1, 3),
 (1, 37),
+(1, 43),
 (2, 4),
 (2, 38),
+(2, 44),
 (5, 1),
 (5, 2),
 (5, 3),
 (5, 4),
 (5, 37),
 (5, 38),
+(6, 43),
+(6, 44),
 (8, 1),
 (8, 2),
 (8, 3),
 (8, 4),
 (8, 37),
 (9, 38),
+(9, 43),
 (12, 1),
 (12, 2),
 (12, 3),
 (12, 4),
 (12, 37),
 (14, 38),
+(14, 43),
+(15, 44),
 (18, 1),
 (18, 2),
 (18, 4),
 (18, 37),
-(19, 3);
+(19, 3),
+(19, 43),
+(19, 44);
 
 -- --------------------------------------------------------
 
@@ -231,7 +240,12 @@ CREATE TABLE `gallery` (
 INSERT INTO `gallery` (`id`, `product_id`, `img`) VALUES
 (1, 2, 's-1.jpg'),
 (2, 2, 's-2.jpg'),
-(3, 2, 's-3.jpg');
+(3, 2, 's-3.jpg'),
+(4, 39, '1fa239723a14cfc1e7cc4d478a38d08a.jpg'),
+(5, 39, 'a78ecc84b3d5e5b4c43d2fc487e29125.jpg'),
+(6, 39, 'e602b38eb40e3dcb777a6146541ae921.jpg'),
+(7, 43, 'eb7984b9eba8e5b7ffdce1695c3da80d.jpg'),
+(8, 44, '5b36966414e02d7a804f5f60c6c25292.jpg');
 
 -- --------------------------------------------------------
 
@@ -366,7 +380,13 @@ INSERT INTO `product` (`id`, `category_id`, `title`, `alias`, `content`, `price`
 (33, 7, 'Часы 20', 'chasy-20', NULL, 125, 0, '1', NULL, NULL, 'no_image.jpg', '0'),
 (36, 3, 'Новый товар 2', 'novyy-tovar-2', '<p>some new content</p>\r\n', 100, 200, '1', 'Новый товар 2', 'Новый товар 2', 'no_image.jpg', '0'),
 (37, 1, 'Товар 3', 'tovar-3', '<p>Товар 3</p>\r\n', 600, 200, '1', 'Товар 3', 'Товар 3', 'no_image.jpg', '0'),
-(38, 1, 'Товар 4', 'tovar-4', '<p>Товар 4</p>\r\n', 600, 700, '1', 'Товар 4', 'Товар 4', 'no_image.jpg', '0');
+(38, 1, 'Товар 4', 'tovar-4', '<p>Товар 4</p>\r\n', 600, 700, '1', 'Товар 4', 'Товар 4', 'no_image.jpg', '0'),
+(39, 1, 'Новый товар 5', 'novyy-tovar-5', '<p>Новый товар 5</p>\r\n', 600, 700, '1', 'Новый товар 5', 'Новый товар 5', '344c3d293a07b6cfc45394d95a968d17.jpg', '0'),
+(40, 1, 'Товар 6', 'tovar-6', '<p>Товар 5</p>\r\n', 600, 200, '1', 'Товар6', 'Товар 5', '41c7632ab082b4d5fd3f52cc13c03ef2.jpg', '0'),
+(41, 1, 'Товар 6', 'tovar-6-41', '<p>Товар 5</p>\r\n', 600, 200, '1', 'Товар6', 'Товар 5', 'no_image.jpg', '0'),
+(42, 1, 'Товар 6', 'tovar-6-42', '<p>Товар 6</p>\r\n', 600, 200, '1', 'Товар 6', 'Товар 6', 'no_image.jpg', '0'),
+(43, 1, 'Товар 7', 'tovar-7', '<p>Товар 7</p>\r\n', 800, 900, '1', 'Товар 7', 'Товар 7', 'c9311ac0c2f5a8827ee9bee911be5cc6.jpg', '0'),
+(44, 1, 'Товар 7', 'tovar-7-44', '<p>Товар 7</p>\r\n', 600, 700, '1', 'Товар 7', 'Товар 7', '4a833e1e1ea1c8c4c9d5463845f74f35.jpg', '1');
 
 -- --------------------------------------------------------
 
@@ -393,7 +413,9 @@ INSERT INTO `related_product` (`product_id`, `related_id`) VALUES
 (5, 8),
 (38, 4),
 (38, 5),
-(38, 9);
+(38, 9),
+(44, 2),
+(44, 4);
 
 -- --------------------------------------------------------
 
@@ -549,7 +571,7 @@ ALTER TABLE `currency`
 -- AUTO_INCREMENT для таблицы `gallery`
 --
 ALTER TABLE `gallery`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT для таблицы `modification`
@@ -573,7 +595,7 @@ ALTER TABLE `order_product`
 -- AUTO_INCREMENT для таблицы `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
 
 --
 -- AUTO_INCREMENT для таблицы `user`

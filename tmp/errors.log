@@ -374,3 +374,23 @@
 ================
 [2019-04-10 14:57:06] Текст ошибки: Метод app\controllers\admin\ProductController::relatedProductAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
 ================
+[2019-04-11 14:37:24] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-04-11 14:37:25] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-04-11 14:37:38] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 50
+================
+[2019-04-11 14:51:39] Текст ошибки: Метод app\controllers\admin\ProductController::addImageAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
+[2019-04-11 14:51:50] Текст ошибки: Метод app\controllers\admin\ProductController::addImageAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
+[2019-04-11 15:18:38] Текст ошибки: Function name must be a string | Файл: C:\OSPanel\domains\php-master\app\models\admin\Product.php | Строка: 91
+================
+[2019-04-11 15:21:07] Текст ошибки: Метод app\controllers\admin\ProductController::editAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
+[2019-04-11 15:21:28] Текст ошибки: Метод app\controllers\admin\ProductController::editAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
+[2019-04-11 15:22:37] Текст ошибки: Function name must be a string | Файл: C:\OSPanel\domains\php-master\app\models\admin\Product.php | Строка: 91
+================
+[2019-04-11 15:29:29] Текст ошибки: Метод app\controllers\admin\ProductController::editAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
