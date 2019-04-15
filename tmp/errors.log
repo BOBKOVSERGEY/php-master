@@ -396,3 +396,15 @@
 ================
 [2019-04-12 14:32:28] Текст ошибки: Не найден вид C:\OSPanel\domains\php-master/app/views/admin\Product/edit.php | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\base\View.php | Строка: 46
 ================
+[2019-04-15 14:52:24] Текст ошибки: Метод app\controllers\admin\FilterController::groupEditAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
+[2019-04-15 14:52:28] Текст ошибки: Метод app\controllers\admin\FilterController::groupEditAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
+[2019-04-15 14:52:34] Текст ошибки: Не найден вид C:\OSPanel\domains\php-master/app/views/admin\Filter/attribute.php | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\base\View.php | Строка: 46
+================
+[2019-04-15 14:52:40] Текст ошибки: Метод app\controllers\admin\FilterController::groupAddAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
+[2019-04-15 15:08:46] Текст ошибки: Не найден вид C:\OSPanel\domains\php-master/app/views/admin\Filter/group-add.php | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\base\View.php | Строка: 46
+================
+[2019-04-15 15:19:02] Текст ошибки: Invalid type: attribute_group | Файл: C:\OSPanel\domains\php-master\vendor\gabordemooij\redbean\RedBeanPHP\Util\DispenseHelper.php | Строка: 77
+================

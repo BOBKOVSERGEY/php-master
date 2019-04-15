@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 11 2019 г., 15:41
+-- Время создания: Апр 15 2019 г., 15:35
 -- Версия сервера: 5.7.20
 -- Версия PHP: 7.0.26
 
@@ -90,7 +90,6 @@ INSERT INTO `attribute_product` (`attr_id`, `product_id`) VALUES
 (12, 37),
 (14, 38),
 (14, 43),
-(15, 44),
 (18, 1),
 (18, 2),
 (18, 4),
@@ -243,9 +242,8 @@ INSERT INTO `gallery` (`id`, `product_id`, `img`) VALUES
 (3, 2, 's-3.jpg'),
 (4, 39, '1fa239723a14cfc1e7cc4d478a38d08a.jpg'),
 (5, 39, 'a78ecc84b3d5e5b4c43d2fc487e29125.jpg'),
-(6, 39, 'e602b38eb40e3dcb777a6146541ae921.jpg'),
 (7, 43, 'eb7984b9eba8e5b7ffdce1695c3da80d.jpg'),
-(8, 44, '5b36966414e02d7a804f5f60c6c25292.jpg');
+(9, 44, 'ee3c4970e1e00e401987f39c3e2c13d8.jpg');
 
 -- --------------------------------------------------------
 
@@ -347,7 +345,7 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`id`, `category_id`, `title`, `alias`, `content`, `price`, `old_price`, `status`, `keywords`, `description`, `img`, `hit`) VALUES
-(1, 6, 'Casio MRP-700-1AVEF', 'casio-mrp-700-1avef', NULL, 300, 0, '1', NULL, NULL, 'p-1.png', '1'),
+(1, 6, 'Casio MRP-700-1AVEF', 'casio-mrp-700-1avef', '', 300, 0, '1', '', '', 'p-1.png', '1'),
 (2, 6, 'Casio MQ-24-7BUL', 'casio-mq-24-7bul', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.</p>\n\n                                            <p>Mauris placerat vitae lorem gravida viverra. Mauris in fringilla ex. Nulla facilisi. Etiam scelerisque tincidunt quam facilisis lobortis. In malesuada pulvinar neque a consectetur. Nunc aliquam gravida purus, non malesuada sem accumsan in. Morbi vel sodales libero.</p>', 70, 80, '1', '111', '222', 'p-2.png', '1'),
 (3, 6, 'Casio GA-1000-1AER', 'casio-ga-1000-1aer', NULL, 400, 0, '1', NULL, NULL, 'p-3.png', '1'),
 (4, 6, 'Citizen JP1010-00E', 'citizen-jp1010-00e', NULL, 400, 0, '1', NULL, NULL, 'p-4.png', '1'),
@@ -381,12 +379,12 @@ INSERT INTO `product` (`id`, `category_id`, `title`, `alias`, `content`, `price`
 (36, 3, 'Новый товар 2', 'novyy-tovar-2', '<p>some new content</p>\r\n', 100, 200, '1', 'Новый товар 2', 'Новый товар 2', 'no_image.jpg', '0'),
 (37, 1, 'Товар 3', 'tovar-3', '<p>Товар 3</p>\r\n', 600, 200, '1', 'Товар 3', 'Товар 3', 'no_image.jpg', '0'),
 (38, 1, 'Товар 4', 'tovar-4', '<p>Товар 4</p>\r\n', 600, 700, '1', 'Товар 4', 'Товар 4', 'no_image.jpg', '0'),
-(39, 1, 'Новый товар 5', 'novyy-tovar-5', '<p>Новый товар 5</p>\r\n', 600, 700, '1', 'Новый товар 5', 'Новый товар 5', '344c3d293a07b6cfc45394d95a968d17.jpg', '0'),
+(39, 1, 'Новый товар 5 new', 'novyy-tovar-5-new', '<p>Новый товар 5</p>\r\n', 600, 700, '1', 'Новый товар 5', 'Новый товар 5', '344c3d293a07b6cfc45394d95a968d17.jpg', '0'),
 (40, 1, 'Товар 6', 'tovar-6', '<p>Товар 5</p>\r\n', 600, 200, '1', 'Товар6', 'Товар 5', '41c7632ab082b4d5fd3f52cc13c03ef2.jpg', '0'),
 (41, 1, 'Товар 6', 'tovar-6-41', '<p>Товар 5</p>\r\n', 600, 200, '1', 'Товар6', 'Товар 5', 'no_image.jpg', '0'),
 (42, 1, 'Товар 6', 'tovar-6-42', '<p>Товар 6</p>\r\n', 600, 200, '1', 'Товар 6', 'Товар 6', 'no_image.jpg', '0'),
 (43, 1, 'Товар 7', 'tovar-7', '<p>Товар 7</p>\r\n', 800, 900, '1', 'Товар 7', 'Товар 7', 'c9311ac0c2f5a8827ee9bee911be5cc6.jpg', '0'),
-(44, 1, 'Товар 7', 'tovar-7-44', '<p>Товар 7</p>\r\n', 600, 700, '1', 'Товар 7', 'Товар 7', '4a833e1e1ea1c8c4c9d5463845f74f35.jpg', '1');
+(44, 1, 'Товар 7', 'tovar-7-44', '<p>Товар 7</p>\r\n', 600, 700, '1', 'Товар 7', 'Товар 7', 'c386c2da4e908c757c241f70e98acd60.png', '1');
 
 -- --------------------------------------------------------
 
@@ -541,7 +539,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT для таблицы `attribute_group`
 --
 ALTER TABLE `attribute_group`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT для таблицы `attribute_value`
@@ -571,7 +569,7 @@ ALTER TABLE `currency`
 -- AUTO_INCREMENT для таблицы `gallery`
 --
 ALTER TABLE `gallery`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT для таблицы `modification`

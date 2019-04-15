@@ -50,7 +50,7 @@ class CategoryController extends AppController
     $start = $pagination->getStart();
 
     // IN - находится в диапазоне
-    $products = R::find('product', "category_id IN ($ids) $sql_part LIMIT $start, $perpage");
+    $products = R::find('product', "status = '1' AND category_id IN ($ids) $sql_part LIMIT $start, $perpage");
 
     if ($this->isAjax()) {
       $this->loadView('filter', compact('products', 'total', 'pagination'));
