@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 15 2019 г., 15:35
+-- Время создания: Апр 17 2019 г., 14:53
 -- Версия сервера: 5.7.20
--- Версия PHP: 7.0.26
+-- Версия PHP: 7.1.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -217,8 +217,9 @@ CREATE TABLE `currency` (
 
 INSERT INTO `currency` (`id`, `title`, `code`, `symbol_left`, `symbol_right`, `value`, `base`) VALUES
 (1, 'гривна', 'UAH', '', 'грн.', 25.80, '0'),
-(2, 'доллар', 'USD', '$', '', 1.00, '1'),
-(3, 'Евро', 'EUR', '€', '', 0.88, '0');
+(2, 'доллар', 'USD', '$', '', 1.00, '0'),
+(3, 'Евро', 'EUR', '€', '', 0.88, '0'),
+(4, 'Рубль', 'RUB', '', 'руб.', 67.00, '1');
 
 -- --------------------------------------------------------
 
@@ -539,7 +540,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT для таблицы `attribute_group`
 --
 ALTER TABLE `attribute_group`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT для таблицы `attribute_value`
@@ -563,7 +564,7 @@ ALTER TABLE `category`
 -- AUTO_INCREMENT для таблицы `currency`
 --
 ALTER TABLE `currency`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT для таблицы `gallery`

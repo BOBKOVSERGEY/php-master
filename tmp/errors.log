@@ -420,3 +420,7 @@
 ================
 [2019-04-16 15:27:57] Текст ошибки: Метод app\controllers\admin\FilterController::groupEditAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
 ================
+[2019-04-17 14:22:36] Текст ошибки: Контроллер app\controllers\admin\CurrencyController не найден | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 47
+================
+[2019-04-17 14:44:05] Текст ошибки: Метод app\controllers\admin\CurrencyController::editAction | Файл: C:\OSPanel\domains\php-master\vendor\ishop\core\Router.php | Строка: 44
+================
